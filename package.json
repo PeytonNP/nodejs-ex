@@ -1,7 +1,7 @@
 {
-  "name": "nodejs-ex",
+  "name": "lswnmaps",
   "version": "0.0.1",
-  "description": "Node.js sample app for OpenShift 3",
+  "description": "this web app create mapp of lswn and allows uers to book rooms at lwsn",
   "main": "server.js",
   "dependencies": {
     "chai": "^3.5.0",
@@ -19,16 +19,15 @@
   },
   "scripts": {
     "start": "node server.js",
-    "test": "IP=0.0.0.0 PORT=3030 mocha --timeout 5000 tests/*_test.js"
   },
   "repository": {
     "type": "git",
-    "url": "http://github.com/openshift/nodejs-ex.git"
+    "url": "https://github.com/PeytonNP/nodejs-ex.git"
   },
-  "author": "Steve Speicher <sspeiche@gmail.com>",
-  "license": "CC-BY-1.0",
+  "author": "Abdul Aziz Bah and Peyton Puckett",
+  "license": "ISC",
   "bugs": {
-    "url": "http://github.com/openshift/nodejs-ex/issues"
+    "url": "https://github.com/PeytonNP/nodejs-ex"
   },
-  "homepage": "http://github.com/openshift/nodejs-ex"
+  "homepage": "https://github.com/PeytonNP/nodejs-ex"
 }
