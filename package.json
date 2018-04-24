@@ -1,33 +1,33 @@
 {
-  "name": "lswnmaps",
-  "version": "1.0.0",
-  "description": "AN INTERACTIVE WAY FOR STUDENTS AND FACULTY CAN RESERVE SPACE IN LAWSON.",
-  "main": "server.js",
-  "dependencies": {
-    "chai": "^3.5.0",
-    "chai-http": "^2.0.1",
-    "ejs": "^2.5.8",
-    "express": "^4.13.4",
-    "mocha": "^2.4.5",
-    "mongodb": "^2.1.16",
-    "morgan": "^1.7.0",
-    "object-assign":"4.1.0"
-  },
-  "engine": {
-    "node": "*",
-    "npm": "*"
-  },
-  "scripts": {
-    "start": "node server.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/PeytonNP/nodejs-ex.git"
-  },
-  "author": "Abdul Aziz Bah and Peyton Puckett",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/PeytonNP/nodejs-ex"
-  },
-  "homepage": "https://github.com/PeytonNP/nodejs-ex"
+    "name": "lswnmaps",
+    "version": "1.0.0",
+    "description": "AN INTERACTIVE WAY FOR STUDENTS AND FACULTY CAN RESERVE SPACE IN LAWSON.",
+    "main": "server.js",
+    "dependencies": {
+        "ejs": "^2.5.8",
+        "express": "^4.16.3",
+        "chai": "^3.5.0",
+        "chai-http": "^2.0.1",
+        "mocha": "^2.4.5",
+        "mongodb": "^2.1.16",
+        "morgan": "^1.7.0",
+        "object-assign":"4.1.0"
+    },
+    "engine": {
+        "node": "*",
+        "npm": "*"
+    },
+    "scripts": {
+        "start": "node server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/PeytonNP/nodejs-ex.git"
+    },
+    "author": "Abdul Aziz Bah and Peyton Puckett",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/PeytonNP/nodejs-ex"
+    },
+    "homepage": "https://github.com/PeytonNP/nodejs-ex"
 }
