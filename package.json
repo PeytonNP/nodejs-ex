@@ -2,25 +2,19 @@
     "name": "lswnmaps",
     "version": "1.0.0",
     "description": "AN INTERACTIVE WAY FOR STUDENTS AND FACULTY CAN RESERVE SPACE IN LAWSON.",
-    "main": "app.js",
+    "main": "server.js",
     "dependencies": {
         "ejs": "^2.5.8",
         "express": "^4.16.3",
         "firebase": "^4.12.1",
-        "mongoose": "^5.0.15",
-        "chai": "^3.5.0",
-        "chai-http": "^2.0.1",
-        "mocha": "^2.4.5",
-        "mongodb": "^2.1.16",
-        "morgan": "^1.7.0",
-        "object-assign":"4.1.0"
+        "mongoose": "^5.0.15"
     },
     "engine": {
         "node": "*",
         "npm": "*"
     },
     "scripts": {
-        "start": "node app.js"
+        "start": "node server.js"
     },
     "repository": {
         "type": "git",
