@@ -1,6 +1,6 @@
 {
   "name": "lswnmaps",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "this web app create mapp of lswn and allows uers to book rooms at lwsn",
   "main": "server.js",
   "dependencies": {
