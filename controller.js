@@ -143,7 +143,7 @@ module.exports = function(app) {
 
     app.get('/', function(req, res) {
         console.log("Am in get /")
-        res.render('index.html');
+        res.render('index.ejs');
         //res.render('index.ejs');
     });
     
