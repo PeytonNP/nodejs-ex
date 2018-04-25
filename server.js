@@ -1,7 +1,9 @@
 //  OpenShift sample Node application
-var express = require('express'),
-    app     = express();
-    
+var express = require('express');
+var app = express();
+var bodyParser = require("body-parser");
+var firebase = require("firebase");
+var controller = require('./controller');
 
 app.engine('html', require('ejs').renderFile);
 
