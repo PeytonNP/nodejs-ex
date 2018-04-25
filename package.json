@@ -2,7 +2,7 @@
     "name": "lswnmaps",
     "version": "1.0.0",
     "description": "AN INTERACTIVE WAY FOR STUDENTS AND FACULTY CAN RESERVE SPACE IN LAWSON.",
-    "main": "server.js",
+    "main": "app.js",
     "dependencies": {
         "ejs": "^2.5.8",
         "express": "^4.16.3",
@@ -14,7 +14,7 @@
         "npm": "*"
     },
     "scripts": {
-        "start": "node server.js"
+        "start": "node app.js"
     },
     "repository": {
         "type": "git",
