@@ -2,11 +2,13 @@
 <html lang="en">
 
 <head>
+    <% include partials/temhead %>
 </head>
 
 <body>
-   <!-- <% var currentRoom = ""; %>-->
+    <% var currentRoom = ""; %>
         <!--Header-->
+        <% include partials/header %>
 
             <div class="clear"></div>
 
@@ -108,10 +110,12 @@
 
 
                 </div>
+                <% include partials/map %>
             </div>
             <div id="ajax-sidebar"></div>
 
             <!--Footer-->
+            <% include partials/footer %>
 
                 <!--Scripts-->
                 <script src="../js/jquery.min.js"></script>
